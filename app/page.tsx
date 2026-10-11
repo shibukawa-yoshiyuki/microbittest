@@ -78,6 +78,8 @@ export default function MicrobitControl() {
         <div style={{ display: "flex", gap: "10px" }}>
           <button onClick={() => sendData("A")} style={{ padding: "10px 20px" }}>「A」を送信</button>
           <button onClick={() => sendData("B")} style={{ padding: "10px 20px" }}>「B」を送信</button>
+          <button onClick={() => sendData("C")} style={{ padding: "10px 20px" }}>「C」を送信</button>
+          <button onClick={() => sendData("Z")} style={{ padding: "10px 20px" }}>「Z」を送信</button>
         </div>
       )}
     </div>
